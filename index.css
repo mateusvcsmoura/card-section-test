@@ -24,14 +24,14 @@ body {
 .item {
     margin: 1rem;
     cursor: pointer;
-    transition: transform .3s linear;
+    transition: transform .5s linear;
 
     border-bottom: 2px solid #000;
     border-radius: 0.5rem;
 }
 
 .item:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .item>img {
