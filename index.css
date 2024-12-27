@@ -9,19 +9,19 @@ body {
     height: 100vh;
 }
 
-.title {
+section.second-section h1.title {
     padding: 1rem 0;
     margin-bottom: 0.2rem;
     text-align: center;
 }
 
-.cards-container {
+section.second-section div.cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.item {
+section.second-section div.cards-container .item {
     margin: 1rem;
     cursor: pointer;
     transition: transform .5s linear;
@@ -30,17 +30,17 @@ body {
     border-radius: 0.1rem;
 }
 
-.item:hover {
+section.second-section div.cards-container .item:hover {
     transform: scale(1.02);
 }
 
-.item>img {
+section.second-section div.cards-container .item>img {
     height: 200px;
     width: 250px;
     border-radius: 0.1rem;
 }
 
-.item>p {
+section.second-section div.cards-container .item>p {
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;

@@ -1,48 +1,48 @@
 @media (max-width: 830px) {
-    .cards-container {
+    section.second-section div.cards-container {
         flex-direction: column;
     }
 
-    .item {
+    section.second-section div.cards-container .item {
         width: 50vw;
     }
 
-    .item>img {
+    section.second-section div.cards-container .item>img {
         width: 100%;
         height: 250px;
     }
 }
 
 @media (max-width: 730px) {
-    .item {
+    section.second-section div.cards-container .item {
         width: 60vw;
     }
 
-    .item>img {
+    section.second-section div.cards-container .item>img {
         width: 100%;
         height: 250px;
     }
 }
 
 @media (max-width: 650px) {
-    .item {
+    section.second-section div.cards-container .item {
         width: 70vw;
     }
 
-    .item>img {
+    section.second-section div.cards-container .item>img {
         width: 100%;
         height: 230px;
     }
 }
 
 @media (max-width: 380px) {
-    .item>img {
+    section.second-section div.cards-container .item>img {
         height: 200px;
     }
 }
 
 @media (max-width: 330px) {
-    .item {
+    section.second-section div.cards-container .item {
         width: 80vw;
     }
 }
