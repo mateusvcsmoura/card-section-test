@@ -27,7 +27,7 @@ body {
     transition: transform .5s linear;
 
     border-bottom: 2px solid #000;
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
 }
 
 .item:hover {
@@ -37,7 +37,7 @@ body {
 .item>img {
     height: 200px;
     width: 250px;
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
 }
 
 .item>p {
